@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+<h1>Who</h1>
+
+  <ul>
+    {% for who in site.data.who %}
+      <li>
+          {{ who.role }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+
+<h1>What</h1>
+  <ul>
+    {% for what in site.data.what %}
+      <li>
+          {{ what.topic }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+
+
+<h1>Materials</h1>
+
+  <ul>
+    {% for item in site.data.materials %}
+      <li>
+          <a href="{{ item.asset | prepend: site.baseurl }}">{{ item.asset }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+
+<h1>Lessons</h1>
+
+  <ul>
+    {% for lesson in site.data.lessons %}
+      <li><h3>{{ lesson.title }}</h3>
+      <p>{{ lesson.description }}</p>
+      </li>
+    {% endfor %}
+  </ul>

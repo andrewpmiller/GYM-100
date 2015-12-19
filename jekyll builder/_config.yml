@@ -1,0 +1,14 @@
+title: GYM-100
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+# Collections hacking
+
+collections:
+    - materials
+    - what
+    - who
+    - lessons

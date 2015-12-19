@@ -1,0 +1,66 @@
+---
+layout: default
+---
+
+
+<header class="hero">
+  <h1>Syllabus</h1>
+  <p>This course consists of a series of video lessons (30-45 mins each), assignments, and quizzes. There is also a final exam to test what you’ve learned.</p>
+</header>
+
+<section class="course-navigation">
+  <h2>Navigating The Course</h2>
+  <ul>
+    <li>Course videos are located under <b>Lessons</b>.</li>
+    <li>Lesson handouts, including assignments and files, can be found under <b>Syllabus</b>.</li>
+    <li>The <b>Forum</b> is our spot to post your assignments for feedback and to receive support from and collaborate with instructors, TAs, and fellow students.</li>
+  </ul>
+</section>
+<section id="course-grading">
+  <h2>Quizzes, Final Exam, and Certificates, Oh My!</h2>
+  <ul>
+    <li>
+      <h3>Assessment Quiz:</h3> 
+      <p>Test your knowledge before starting the course. Not mandatory, but recommended if you’re wondering if this class might be too advanced or too basic for you.</p>
+    </li>
+  </ul>
+  <ul>
+    <li>
+      <h3>Lesson Quizzes:</h3>
+      <p>Each lesson will have an optional quiz at the end so you can test your comprehension of the material. </p>
+      <ul>
+        <li>Take quizzes as many or as few times as you like; they’re not required to go on to the next lesson.</li>
+        <li>Quiz scores are solely for your benefit; they do not "count" toward a certificate.</li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul>
+    <li>
+      <h3>Final Exam:</h3>
+      <p>The final exam can be taken at any point during the course. For obvious reasons, we suggest leaving it until the end.</p>
+        <ul>
+          <li>A score of 85% or higher will result in a Certificate of Excellence. (See below.)</li>
+          <li>You have two attempts to pass the final exam. In rare circumstances (such as technical difficulties), we are able to reset your attempts, but we're not in the habit of doing it, so make them count!</li>
+        </ul>
+      </li>
+  </ul>
+  
+  <ul>
+    <li>
+      <h3>Certificate of Excellence:</h3>
+      <p>Certificates are issued by Aquent Gymnasium and <a href="http://www.accredible.com" target="_blank">Accredible</a>. Once you pass the final exam, you’ll see a link to it document on your dashboard. Huzzah!</p>
+    </li>
+  </ul>
+</section>
+
+<section id="course-outline">
+  <h2>Course Outline</h2>
+  <ul>
+    {% for lesson in site.data.lessons %}
+    <li><h3>{{ lesson.title }}</h3>
+    <p>{{ lesson.description }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+</section>

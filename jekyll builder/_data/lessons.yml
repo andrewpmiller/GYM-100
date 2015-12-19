@@ -1,0 +1,17 @@
+- title: "Lesson 1: How Web Design Is Different From Print Design"
+  description: "An introduction to design principles on the web. We’ll explore examples and discuss context, but won’t begin coding yet."
+
+- title: "Lesson 2: “Hello World,” Coding Pages, And Fixing Problems"
+  description: "An introduction to coding HTML5 and CSS. We’ll set up our tools and start building pages."
+
+- title: "Lesson 3: Page Layout And Color With CSS"
+  description: "A deep-dive into CSS and how to merge visual design with website language. We’ll cover layout boxes, shapes, color, and the basics of page layout."
+
+- title: "Lesson 4: Typography On The Web"
+  description: "A focused introduction to what can (and can’t) be done with type on web pages. We’ll cover typefaces and licensing, sizing type, leading and kerning, and drop shadows."
+
+- title: "Lesson 5: Create A Mobile Website"
+  description: "The “mobile first” philosophy and why it’s useful for web designers. We’ll cover buttons, links, and scrolling layouts."
+
+- title: "Lesson 6: Create A Complete Website With Twitter Bootstrap"
+  description: "It’s time to apply for the final project: building a desktop website from a comp with the help of the very popular Twitter Bootstrap framework."
