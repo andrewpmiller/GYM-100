@@ -1,0 +1,6 @@
+[project]
+name = buildtest
+
+[packages]
+markdown-excerpt = 1.0
+
